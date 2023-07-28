@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Navbar from "$lib/components/navbar.svelte";
+	import Navbar from '$lib/components/Navbar.svelte';
 
 	const myAge = () => {
 		const birthday = new Date(1999, 8, 28).getTime();
@@ -10,7 +10,25 @@
 </script>
 
 <Navbar />
-
+<div class="flex justify-center p-5">
+<div class="hero h-fit sm:w-2/3 bg-base-200 rounded-lg shadow-lg">
+	<div class="hero-content flex-col lg:flex-row">
+		<img
+			src="dog.jpg"
+			alt="My dog!"
+			class="max-w-sm rounded-lg shadow-2xl"
+		/>
+		<div>
+			<h1 class="text-5xl font-bold">Welcome to my page!</h1>
+			<p class="py-6">
+				Owner of an oddly photogenic dog, and polyglot of programming languages. I love learning everything
+				programming and computer science. Please browse my blog for Rust, Unreal Engine and programming
+				hot takes! 
+			</p>
+		</div>
+	</div>
+</div>
+</div>
 <div class="flex justify-center m-5">
 	<div class="sm:w-2/3 m-2">
 		<div class="p-2">
@@ -19,7 +37,7 @@
 				I'm a {myAge()} year old Rust evangelist with a passion for everything software: when I am not
 				writing software at my day job, I'm writing it in my own time. I started back in 2015 wanting
 				to mod a little known game called Call of Duty: World at War where I struggled for 3 hours on
-				ugx-mods trying to understand how to programatically open a door. Since then software has continued
+				ugx-mods trying to understand how to replicate text on a screen. Since then software has continued
 				to excite me and so I always take pride in making good experiences.
 			</p>
 		</div>

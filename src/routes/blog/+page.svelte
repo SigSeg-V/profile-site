@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Navbar from '$lib/components/navbar.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 
 	const myAge = () => {
 		const birthday = new Date(1999, 8, 28).getTime();
