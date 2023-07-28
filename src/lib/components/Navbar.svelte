@@ -1,4 +1,4 @@
-<div class="navbar bg-primary drop-shadow-md">
+<div class="navbar bg-primary drop-shadow-md minimum-width-rem flex w-full">
 	<div class="flex-1">
 		<a
 			class="btn btn-ghost normal-case text-xl hover:bg-primary-focus text-primary-content"

@@ -16,7 +16,7 @@
 		<img
 			src="dog.jpg"
 			alt="My dog!"
-			class="max-w-sm rounded-lg shadow-2xl"
+			class="max-w-sm w-1/3 rounded-lg shadow-2xl"
 		/>
 		<div>
 			<h1 class="text-5xl font-bold">Welcome to my page!</h1>
